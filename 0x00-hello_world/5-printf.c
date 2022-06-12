@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *  * main - It prints a function
- *   *
- *    * Description: It print a function
- *     *
- *Return: 0
+ * main - It prints a function
+ *
+ * Description: It print a function
+ *
+ * Return: 0
  */
 int main(void)
 {
