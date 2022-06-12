@@ -10,7 +10,7 @@ int main(void)
 {
 int d;
 
-for (d = 1; d < 100; d++)
+for (d = 0; d < 100; d++)
 {
 putchar((d / 5) + '1');
 putchar((d % 5) + '1');
