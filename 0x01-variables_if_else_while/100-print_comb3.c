@@ -12,8 +12,8 @@ int d;
 
 for (d = 1; d < 90; d++)
 {
-putchar((d / 2) + '0');
-putchar((d % 10) + '0');
+putchar((d / 5) + '0');
+putchar((d % 2) + '0');
 if (d != 89)
 {
 putchar(',');
