@@ -1,19 +1,20 @@
 #include "stdio.h"
+
 /**
- * main - entry point
+ * main - print _putchar as a message.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char *sh = "_putchar";
+int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+int count, sz;
 
-while (*sh)
+sz = sizeof(str) / sizeof(int);
+for (count = 0; count < sz; count++)
 {
-_putchar(*sh);
-sh++;
+_putchar(str[count]);
 }
 _putchar('\n');
-
 return (0);
 }
