@@ -15,6 +15,6 @@ for (count = 0; count < sz; count++)
 {
 putchar(str[count]);
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
