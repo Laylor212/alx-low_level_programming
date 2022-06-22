@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * _strcat - concatenates two strings,
  * @dest: destination.
@@ -15,6 +17,7 @@ count++;
 }
 
 while (count2 >= 0)
+{
 *(dest +count) = *(src + count2);
 if (*(src + count2) == '\0')
 break;
