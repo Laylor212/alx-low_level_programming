@@ -6,7 +6,8 @@
  * @dest: destination.
  * @src: source.
  * Return: the pointer to dest.
- */
+*/
+int main (){
 char *_strcat(char *dest, char *src)
 {
 int count = 0, count2 = 0;
@@ -25,4 +26,5 @@ count++;
 count2++;
 }
 return (dest);
+}
 }
