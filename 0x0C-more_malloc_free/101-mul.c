@@ -30,7 +30,6 @@ if (argv[i] < 48 || argv[i] > 57)
 return (1);
 return (0);
 }
-
 /**
  * _calloc - allocate array of size * nmemb.
  * @nmemb: number of elements.
@@ -49,7 +48,7 @@ if (tab == NULL)
 return (NULL);
 
 for (i = 0; i < (size * nmemb); i++)
-tab[i] = '0';	
+tab[i] = '0';
 return (tab);
 }
 
