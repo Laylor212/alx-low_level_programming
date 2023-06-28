@@ -1,4 +1,1 @@
-Coding
-# printf
-# printf
-another day of doing hard things
+A very late linkedlist project
