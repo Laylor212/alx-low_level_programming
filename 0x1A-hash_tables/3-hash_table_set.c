@@ -68,7 +68,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		tmp = tmp->next;
 	}
-	hash_node = get_has_node(key, value);
+	hash_node = get_hash_node(key, value);
 
 	if (hash_node == NULL)
 		return (0);
